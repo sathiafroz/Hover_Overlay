@@ -1,0 +1,37 @@
+body{
+	background: #f1f1f1;
+	margin: 0;
+	padding: 0;
+}
+.box{
+	width: 600px;
+	height: 400px;
+	position: relative;
+	cursor: pointer;
+}
+.box:hover .post-1{
+	width: 600px;
+}
+.box img{
+	display: block;
+	height: 400px;
+	width: 600px;
+}
+.post-1{
+	width: 0px;
+	height: 400px;
+	background: #efc700b3;
+	position: absolute;
+	top: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	overflow: hidden;
+	transition: 0.7s ease;
+}
+.post-1 h1{
+	color: white;
+	font-size: 50px;
+	border: 6px solid white;
+	padding: 10px 30px;
+}
